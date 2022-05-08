@@ -37,7 +37,7 @@ function App() {
       }
     }
 
-    const logout = async () => {
+    const logOut = async () => {
       await logout();
       console.log("logged out");
       setNfts([])
